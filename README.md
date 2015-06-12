@@ -1,3 +1,8 @@
+# About
+
+leaders6th研修in関西で使うエラー解決問題です。
+
+
 # TryErrors解答
 
 ### 101
@@ -48,7 +53,6 @@
 
 * countLabelに関連付けしたいが関連付けができない
 * storybord上にはUILabelが置いてあるのにコード上でUITextViewを宣言してしまっている。
-* 
 
 
 
