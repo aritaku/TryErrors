@@ -18,14 +18,14 @@ class ViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSou
         super.viewDidLoad()
         
         let soundFilePath :NSString = NSBundle.mainBundle().pathForResource("clap", ofType: "wav")!
-        let fileURL :NSURL = NSURL(fileURLWithPath: soundFilePath as String)!
+        let fileURL :NSURL = NSURL(fileURLWithPath: soundFilePath as String)
         
-        audioPlayer = AVAudioPlayer(contentsOfURL: fileURL, error: nil)
+        audioPlayer = try? AVAudioPlayer(contentsOfURL: fileURL)
         
         clapPicker.delegate = self
         clapPicker.dataSource = self
         
-        var soundCount :Int = 0
+        _ :Int = 0
 
     }
 
@@ -45,7 +45,7 @@ class ViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSou
     }
     
     //MARK: - UIPickerViewDelegate method
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return "\(row + 1)回"
     }
     

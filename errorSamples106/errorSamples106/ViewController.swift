@@ -29,11 +29,11 @@ class ViewController: UIViewController, UIWebViewDelegate {
     
     
     func webViewDidFinishLoad(webView: UIWebView) {
-        println("webViewDidFinishLoad")
+        print("webViewDidFinishLoad")
     }
     
     func webViewDidStartLoad(webView: UIWebView) {
-        println("webViewDidStartLoad")
+        print("webViewDidStartLoad")
     }
 
 

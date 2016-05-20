@@ -58,10 +58,10 @@ class ViewController: UIViewController {
     }
     @IBAction func random(sender: AnyObject) {
         
-        var ituIndex = Int(arc4random_uniform(4))
-        var dokodeIndex = Int(arc4random_uniform(4))
-        var daregaIndex = Int(arc4random_uniform(4))
-        var naniIndex = Int(arc4random_uniform(4))
+        let ituIndex = Int(arc4random_uniform(4))
+        let dokodeIndex = Int(arc4random_uniform(4))
+        let daregaIndex = Int(arc4random_uniform(4))
+        let naniIndex = Int(arc4random_uniform(4))
         
         NSLog("いつ:%d" , ituIndex)
         NSLog("どこで:%d" , dokodeIndex)

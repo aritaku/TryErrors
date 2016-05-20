@@ -33,7 +33,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell : UITableViewCell = UITableViewCell()
+        let cell : UITableViewCell = UITableViewCell()
         cell.textLabel?.text = String(indexPath.row)
         indexNumber = indexPath.row
         return cell
@@ -42,7 +42,7 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     //MARK: Delegate
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "toSecondview") {
-            var secondView :SecondViewController = segue.destinationViewController as! SecondViewController
+            let secondView :SecondViewController = segue.destinationViewController as! SecondViewController
             
             secondView.indexNumber = self.indexNumber
         }

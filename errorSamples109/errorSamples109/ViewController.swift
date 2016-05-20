@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func plus(sender: AnyObject) {
+    func plus(sender: AnyObject) {
         number += 1
         numberLabel.text = String(number)
         if isAho() == true {
