@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         myButton.addTarget(self, action: "onDownButton:", forControlEvents: .TouchDown)
         
         // TouchUpの時のイベントを追加する.
-        myButton.addTarget(self, action: "onUpButton:", forControlEvents: .TouchUpInside | .TouchUpOutside)
+        myButton.addTarget(self, action: "onUpButton:", forControlEvents: [.TouchUpInside, .TouchUpOutside])
         
         // 背景色を黒に設定する.
         self.view.backgroundColor = UIColor.whiteColor()

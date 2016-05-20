@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func stop(sender: AnyObject) {
+    func stop(sender: AnyObject) {
         if timer.valid {
     timer.invalidate()
     }

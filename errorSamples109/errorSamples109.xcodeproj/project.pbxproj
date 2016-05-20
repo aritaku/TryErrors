@@ -156,6 +156,8 @@
 		9A90AF8A1B2800CB0065DD09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "有村 琢磨";
 				TargetAttributes = {
@@ -409,6 +411,7 @@
 				9A90AFB31B2800CC0065DD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A90AFB41B2800CC0065DD09 /* Build configuration list for PBXNativeTarget "errorSamples109Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +420,7 @@
 				9A90AFB61B2800CC0065DD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
