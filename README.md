@@ -8,7 +8,7 @@ leaders6th研修in関西で使うエラー解決問題です。
 ### 101
 
 * 関連付けができていない
-* func plusの{}が全角
+* labelのスペルミス
 
 ### 102
 
@@ -53,13 +53,3 @@ leaders6th研修in関西で使うエラー解決問題です。
 
 * countLabelに関連付けしたいが関連付けができない
 * storybord上にはUILabelが置いてあるのにコード上でUITextViewを宣言してしまっている。
-
-
-
-
-
-
-
-
-
-
